@@ -1,3 +1,91 @@
+:root {
+  --bg: white;
+  --text: black;
+  --primary: #008080;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: var(--primary);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.dark-mode {
+  --bg: #121212;
+  --text: #f0f0f0;
+  --primary: #1abc9c;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f8f8f8;
+}
+
+
+
+
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
