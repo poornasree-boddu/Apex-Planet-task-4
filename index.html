@@ -1,3 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Venkatapoornasree Boddu</h1>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <button id="themeToggle">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I'm a passionate web developer with a strong foundation in HTML, CSS, and JavaScript.</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Listing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Products</h1>
+
+  <label>Sort:
+    <select id="sort" onchange="renderProducts()">
+      <option value="">--Select--</option>
+      <option value="priceLow">Price: Low to High</option>
+      <option value="priceHigh">Price: High to Low</option>
+    </select>
+  </label>
+
+  <div id="productList" class="grid"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
